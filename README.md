@@ -59,7 +59,7 @@ To analyze model performance, five different feature sets were used:
 
 1. Clone the repository:
    ```bash
-   git clone [[Repo Link]]
+   git clone https://github.com/pascalghanimi/Injury-Prediction-in-Runners.git
    cd injury-prediction
    ```
 2. Install dependencies:
@@ -77,7 +77,7 @@ To analyze model performance, five different feature sets were used:
 
 ---
 **Author:** Pascal Ghanimi
-**GitHub Repository:** [[Repo Link]]
+**GitHub Repository:** https://github.com/pascalghanimi/Injury-Prediction-in-Runners.git
 
 
 

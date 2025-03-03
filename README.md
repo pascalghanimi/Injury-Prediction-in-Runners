@@ -40,6 +40,12 @@ To analyze model performance, five different feature sets were used:
 - **Ensemble Approach**: Models calibrated using `CalibratedClassifierCV`, then combined via probability averaging.
 
 ## Results
+### Comparison of Feature Sets for XGBoost
+![image](https://github.com/user-attachments/assets/6aa49380-a628-4a3e-9c22-fbcace9e5600)
+![image](https://github.com/user-attachments/assets/f3e30661-d617-4292-8a2e-c3f9d6709b4c)
+
+
+
 ### Comparison of Feature Sets for Light GBM
 ![image](https://github.com/user-attachments/assets/413ae1f2-3566-4da0-b239-b6e46d8daaca)
 ![image](https://github.com/user-attachments/assets/9a0ada1c-b0c1-4329-a63b-9b45e9cbccbb)

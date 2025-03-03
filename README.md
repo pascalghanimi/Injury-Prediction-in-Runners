@@ -20,7 +20,7 @@ This project focuses on predicting injuries in athletes using machine learning m
 ### 3. CatBoost
 - Handles categorical features efficiently.
 - Uses **Oblivious Trees** for balanced splits.
-- GPU acceleration available for faster training.
+- Optimized with **Optuna** to maximize AUC score.
 
 ## Feature Sets
 To analyze model performance, five different feature sets were used:
@@ -35,14 +35,20 @@ To analyze model performance, five different feature sets were used:
 
 - **Data Handling**: Features and labels are stored as `.pkl` files.
 - **Data Splitting**: Standard **train-validation-test** split (70%-15%-15%).
-- **Batch Sampling**: Balanced mini-batches created to handle class imbalance.
+- **Batch Sampling**: Balanced mini-batches created to handle class imbalance (2048 samples in total, 50% injured & 50% healthy event)
 - **Performance Metric**: **AUC (Area Under the Curve)** used for evaluation.
 - **Ensemble Approach**: Models calibrated using `CalibratedClassifierCV`, then combined via probability averaging.
 
 ## Results
-(*To be added at the end of the project*)
+# Comparison of Feature Sets for Light GBM
+![image](https://github.com/user-attachments/assets/413ae1f2-3566-4da0-b239-b6e46d8daaca)
+![image](https://github.com/user-attachments/assets/9a0ada1c-b0c1-4329-a63b-9b45e9cbccbb)
+
+# Comparison of Feature Sets for CatBoost
+
 
 ## Usage
+
 
 ### 1. Clone the repository:
 ```bash
@@ -62,26 +68,13 @@ python train_lightgbm.py
 python train_catboost.py
 ```
 
-### 4. Evaluate ensemble model:
-```bash
-python evaluate_ensemble.py
-```
 
 ## Future Improvements
 - **Feature Engineering**: Experiment with additional metrics.
-- **Hyperparameter Optimization**: Further fine-tuning with more trials.
+- **Hyperparameter Optimization**: Further fine-tuning with more trials and especially fine-tuning for each individual feature set (e.g. days, weeks, objective and subjective features)
 - **Deployment**: Convert the best model into a web-based API for real-time predictions.
 
 ---
-**Author:** [Your Name]  
-**Contact:** [Your Email]  
+**Author:** Pascal Ghanimi
 **GitHub Repository:** [Repo Link]
 
-
-
-
-# Comparison of Feature Sets for Light GBM
-![image](https://github.com/user-attachments/assets/413ae1f2-3566-4da0-b239-b6e46d8daaca)
-![image](https://github.com/user-attachments/assets/9a0ada1c-b0c1-4329-a63b-9b45e9cbccbb)
-
-# Comparison of Feature Sets for CatBoost

@@ -49,24 +49,25 @@ To analyze model performance, five different feature sets were used:
 
 ## Usage
 
+### Running in Google Colab
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/injury-prediction.git
-cd injury-prediction
-```
+1. Open the Colab notebook in your browser.
+2. Upload the required `.pkl` files containing the dataset.
+3. Run the notebook cells to train and evaluate the models.
 
-### 2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+### Running Locally (Optional)
 
-### 3. Run training scripts for different models:
-```bash
-python train_xgboost.py
-python train_lightgbm.py
-python train_catboost.py
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/injury-prediction.git
+   cd injury-prediction
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Modify the notebook or create Python scripts for local execution.
+
 
 
 ## Future Improvements
@@ -77,4 +78,6 @@ python train_catboost.py
 ---
 **Author:** Pascal Ghanimi
 **GitHub Repository:** [Repo Link]
+
+
 

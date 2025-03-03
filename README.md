@@ -5,7 +5,7 @@ Injury Prediction in Competitive Runners With Machine Learning
 
 
 # Comparison of Feature Sets for Light GBM
-![image](https://github.com/user-attachments/assets/4509922a-3d59-4640-8f6f-fbfed55cb800)
-![image](https://github.com/user-attachments/assets/ebd9f265-2d1b-443b-b000-a2466d2762cc)
+![image](https://github.com/user-attachments/assets/413ae1f2-3566-4da0-b239-b6e46d8daaca)
+![image](https://github.com/user-attachments/assets/9a0ada1c-b0c1-4329-a63b-9b45e9cbccbb)
 
 # Comparison of Feature Sets for CatBoost

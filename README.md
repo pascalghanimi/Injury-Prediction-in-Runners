@@ -1,7 +1,83 @@
 # Injury-Prediction-in-Runners
-Injury Prediction in Competitive Runners With Machine Learning
 
-# Comparison of Feature Sets for XGBoost
+## Injury Prediction in Competitive Runners With Machine Learning
+
+### Overview
+This project focuses on predicting injuries in athletes using machine learning models. The goal is to compare different boosting algorithms—**XGBoost, LightGBM, and CatBoost**—and evaluate their performance across different feature sets. Additionally, an **ensemble approach** is implemented to combine the strengths of multiple models for improved prediction accuracy.
+
+## Models Implemented
+
+### 1. XGBoost
+- Utilized for binary classification.
+- Hyperparameter tuning performed with **Optuna**.
+- Model trained on various feature subsets.
+
+### 2. LightGBM
+- Faster than XGBoost with large datasets.
+- Uses histogram-based learning for better efficiency.
+- Optimized with **Optuna** to maximize AUC score.
+
+### 3. CatBoost
+- Handles categorical features efficiently.
+- Uses **Oblivious Trees** for balanced splits.
+- GPU acceleration available for faster training.
+
+## Feature Sets
+To analyze model performance, five different feature sets were used:
+
+1. **All Features** – Combination of all feature categories.
+2. **Days Features** – Data collected on a daily basis.
+3. **Weeks Features** – Aggregated weekly data.
+4. **Objective Features** – Metrics derived from measurable performance.
+5. **Subjective Features** – Data based on athlete-reported conditions.
+
+## Training and Evaluation
+
+- **Data Handling**: Features and labels are stored as `.pkl` files.
+- **Data Splitting**: Standard **train-validation-test** split (70%-15%-15%).
+- **Batch Sampling**: Balanced mini-batches created to handle class imbalance.
+- **Performance Metric**: **AUC (Area Under the Curve)** used for evaluation.
+- **Ensemble Approach**: Models calibrated using `CalibratedClassifierCV`, then combined via probability averaging.
+
+## Results
+(*To be added at the end of the project*)
+
+## Usage
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/your-username/injury-prediction.git
+cd injury-prediction
+```
+
+### 2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run training scripts for different models:
+```bash
+python train_xgboost.py
+python train_lightgbm.py
+python train_catboost.py
+```
+
+### 4. Evaluate ensemble model:
+```bash
+python evaluate_ensemble.py
+```
+
+## Future Improvements
+- **Feature Engineering**: Experiment with additional metrics.
+- **Hyperparameter Optimization**: Further fine-tuning with more trials.
+- **Deployment**: Convert the best model into a web-based API for real-time predictions.
+
+---
+**Author:** [Your Name]  
+**Contact:** [Your Email]  
+**GitHub Repository:** [Repo Link]
+
+
 
 
 # Comparison of Feature Sets for Light GBM

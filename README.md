@@ -54,6 +54,9 @@ To analyze model performance, five different feature sets were used:
 ![image](https://github.com/user-attachments/assets/836d3e84-7901-4829-af55-2c9950c85dbf)
 ![image](https://github.com/user-attachments/assets/2bb15d85-c56c-4113-93ae-87b7e4677769)
 
+### Performance of Ensemble Model (ROC Curve)
+![image](https://github.com/user-attachments/assets/40796dba-e3b2-449c-9bce-de2a8417f013)
+
 
 
 ## Usage

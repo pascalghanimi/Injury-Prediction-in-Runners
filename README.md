@@ -51,6 +51,9 @@ To analyze model performance, five different feature sets were used:
 ![image](https://github.com/user-attachments/assets/9a0ada1c-b0c1-4329-a63b-9b45e9cbccbb)
 
 ### Comparison of Feature Sets for CatBoost
+![image](https://github.com/user-attachments/assets/836d3e84-7901-4829-af55-2c9950c85dbf)
+![image](https://github.com/user-attachments/assets/2bb15d85-c56c-4113-93ae-87b7e4677769)
+
 
 
 ## Usage

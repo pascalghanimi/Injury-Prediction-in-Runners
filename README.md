@@ -37,10 +37,10 @@ To analyze model performance, five different feature sets were used:
 - **Data Splitting**: Standard **train-validation-test** split (70%-15%-15%).
 - **Batch Sampling**: Balanced mini-batches created to handle class imbalance (2048 samples in total, 50% injured & 50% healthy event)
 - **Performance Metric**:
-   - AUC (Area Under the Curve, measures how well model can differentiate between injured and non-injured people)
-   - Recall (How many injured people were detected correctly)
-   - Precision (How many people of injured predictions were really injured)
-   - F1 Score (Harmony between Precision and Recall) ** used for evaluation
+   - AUC (Area Under the Curve) → Measures how well the model distinguishes between injured and non-injured individuals
+   - Recall (Sensitivity) → The proportion of actually injured individuals correctly identified by the model.
+   - Precision → The proportion of predicted injured individuals who are actually injured
+   - F1-Score → The harmonic mean of Precision and Recall
 - **Ensemble Approach**: Models calibrated using `CalibratedClassifierCV`, then combined via probability averaging.
 
 ## Results

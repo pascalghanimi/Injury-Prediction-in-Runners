@@ -36,7 +36,7 @@ To analyze model performance, five different feature sets were used:
 - **Data Handling**: Features and labels are stored as `.pkl` files.
 - **Data Splitting**: Standard **train-validation-test** split (70%-15%-15%).
 - **Batch Sampling**: Balanced mini-batches created to handle class imbalance (2048 samples in total, 50% injured & 50% healthy event)
-- **Performance Metric**: **AUC (Area Under the Curve)** used for evaluation.
+- **Performance Metric**: **AUC (Area Under the Curve, measures how well model can differentiate between injured and non-injured people), **Recall (How many injured people were detected correctly), **Precision (How many people of injured predictions were really injured), F1 Score (Harmony between Precision and Recall) ** used for evaluation
 - **Ensemble Approach**: Models calibrated using `CalibratedClassifierCV`, then combined via probability averaging.
 
 ## Results

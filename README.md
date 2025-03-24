@@ -41,6 +41,7 @@ To analyze model performance, five different feature sets were used:
    - Recall (Sensitivity) → The proportion of actually injured individuals correctly identified by the model.
    - Precision → The proportion of predicted injured individuals who are actually injured
    - F1-Score → The harmonic mean of Precision and Recall
+   - Specificity → The proportion of actually non-injured individuals correctly identified as non-injured by the model.
 - **Ensemble Approach**: Models calibrated using `CalibratedClassifierCV`, then combined via probability averaging.
 
 ## Results

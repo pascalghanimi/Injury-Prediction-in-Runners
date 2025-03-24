@@ -52,8 +52,16 @@ To analyze model performance, five different feature sets were used:
 
 
 ### Comparison of Feature Sets for Light GBM
-![image](https://github.com/user-attachments/assets/413ae1f2-3566-4da0-b239-b6e46d8daaca)
-![image](https://github.com/user-attachments/assets/9a0ada1c-b0c1-4329-a63b-9b45e9cbccbb)
+![image](https://github.com/user-attachments/assets/97d309f0-876a-434a-9ed9-cc1215596429)
+![image](https://github.com/user-attachments/assets/f8afc667-31a0-49b0-817b-a791db112489)
+![image](https://github.com/user-attachments/assets/56e16154-d726-4445-a168-4f826279fa5d)
+![image](https://github.com/user-attachments/assets/64f1ba92-dea2-429c-9ca9-942796df7388)
+![image](https://github.com/user-attachments/assets/50862c59-ce3e-4107-a4cd-b2517aeef0aa)
+![image](https://github.com/user-attachments/assets/89a4cd2a-01bc-42f5-b2a6-8d3d631550b6)
+![image](https://github.com/user-attachments/assets/f0161e29-77ae-408b-9e24-6fbe0ec79f0b)
+![image](https://github.com/user-attachments/assets/38d56785-0b54-4e8e-aef0-535cd00755ec)
+![image](https://github.com/user-attachments/assets/ed7fc479-a340-484c-8243-f3064a820225)
+![image](https://github.com/user-attachments/assets/42aadae3-5a35-40c9-8689-d78dc73d45dd)
 
 ### Comparison of Feature Sets for CatBoost
 ![image](https://github.com/user-attachments/assets/836d3e84-7901-4829-af55-2c9950c85dbf)

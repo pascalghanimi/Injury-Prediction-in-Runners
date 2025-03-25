@@ -47,13 +47,17 @@ To analyze model performance, five different feature sets were used:
 ## Results
 ### Comparison of Feature Sets for XGBoost
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/431f0cd7-a6da-4009-9f80-3be5d6140f30
-" width="300"/>
-  <img src="https://github.com/user-attachments/assets/b75fc318-0db7-4236-a98c-388db09ad7b3
-" width="300"/>
-  <img src="https://github.com/user-attachments/assets/bab0b387-f27b-408c-a8a8-6370dfbed53f
-" width="300"/>
+  <img src="https://github.com/user-attachments/assets/97d309f0-876a-434a-9ed9-cc1215596429" width="300"/>
+  <img src="https://github.com/user-attachments/assets/f8afc667-31a0-49b0-817b-a791db112489" width="300"/>
+  <img src="https://github.com/user-attachments/assets/56e16154-d726-4445-a168-4f826279fa5d" width="300"/>
 </p>
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/64f1ba92-dea2-429c-9ca9-942796df7388" width="300"/>
+  <img src="https://github.com/user-attachments/assets/50862c59-ce3e-4107-a4cd-b2517aeef0aa" width="300"/>
+  <img src="https://github.com/user-attachments/assets/89a4cd2a-01bc-42f5-b2a6-8d3d631550b6" width="300"/>
+</p>
+
 
 
 

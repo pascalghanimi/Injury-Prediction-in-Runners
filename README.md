@@ -92,7 +92,6 @@ To analyze model performance, five different feature sets were used:
 
 
 
-### Comparison of Feature Sets for Light GBM
 ### Comparison of Feature Sets for LightGBM
 
 <p float="left">

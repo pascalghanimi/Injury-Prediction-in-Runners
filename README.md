@@ -5,6 +5,10 @@
 ### Overview
 This project focuses on predicting injuries in athletes using machine learning models. The goal is to compare different boosting algorithms—**XGBoost, LightGBM, and CatBoost**—and evaluate their performance across different feature sets. Additionally, an **ensemble approach** is implemented to combine the strengths of multiple models for improved prediction accuracy.
 
+### Purpose
+To build on previous work in injury prediction, this project aimed not only to replicate but also to improve existing models by systematically comparing different boosting algorithms and feature sets. Special attention was given to evaluating the predictive value of subjective (self-reported) versus objective (measured) training features, as well as exploring how different temporal resolutions (daily vs. weekly data) affect model performance.
+
+
 ## Models Implemented
 
 ### 1. XGBoost

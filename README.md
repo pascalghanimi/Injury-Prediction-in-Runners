@@ -226,6 +226,8 @@ To analyze model performance, five different feature sets were used:
 - **Deployment**: Convert the best model into a web-based API for real-time predictions.
 
 ## Feature Lists
+For the analysis, all available features were grouped into five distinct feature sets: All Features, Days, Weeks, Objective, and Subjective. This structure allows for a targeted evaluation of different data dimensions. While All Features includes the complete set of variables, the remaining subsets focus on specific aspects such as daily or weekly metrics, purely objective training data, or subjective athlete self-assessments.
+
 1. **All Features** – 'nr. sessions_day', 'total km', 'km Z3-4', 'km Z5-T1-T2', 'km sprinting', 'strength training',
 'hours alternative', 'perceived exertion', 'perceived trainingSuccess', 'perceived recovery',
 'nr. sessions.1_day', 'total km.1', 'km Z3-4.1', 'km Z5-T1-T2.1', 'km sprinting.1', 'strength training.1',

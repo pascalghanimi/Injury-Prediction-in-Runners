@@ -25,11 +25,11 @@ This project focuses on predicting injuries in athletes using machine learning m
 ## Feature Sets
 To analyze model performance, five different feature sets were used:
 
-1. **All Features** – Combination of all feature categories.
-2. **Days Features** – Data collected on a daily basis.
-3. **Weeks Features** – Aggregated weekly data.
-4. **Objective Features** – Metrics derived from measurable performance.
-5. **Subjective Features** – Data based on athlete-reported conditions.
+1. **All Features** – Combination of all feature categories (139 Features in Total)
+2. **Days Features** – Data collected on a daily basis (70 Features in Total)
+3. **Weeks Features** – Aggregated weekly data (69 Features in Total)
+4. **Objective Features** – Metrics derived from measurable performance (91 Features in Total)
+5. **Subjective Features** – Data based on athlete-reported conditions (48 Features in Total)
 
 ## Training and Evaluation
 
@@ -224,6 +224,98 @@ To analyze model performance, five different feature sets were used:
 - **Feature Engineering**: Experiment with additional metrics.
 - **Hyperparameter Optimization**: Further fine-tuning with more trials and especially fine-tuning for each individual feature set (e.g. days, weeks, objective and subjective features)
 - **Deployment**: Convert the best model into a web-based API for real-time predictions.
+
+## Feature Lists
+1. **All Features** – 'nr. sessions_day', 'total km', 'km Z3-4', 'km Z5-T1-T2', 'km sprinting', 'strength training',
+'hours alternative', 'perceived exertion', 'perceived trainingSuccess', 'perceived recovery',
+'nr. sessions.1_day', 'total km.1', 'km Z3-4.1', 'km Z5-T1-T2.1', 'km sprinting.1', 'strength training.1',
+'hours alternative.1', 'perceived exertion.1', 'perceived trainingSuccess.1', 'perceived recovery.1',
+'nr. sessions.2_day', 'total km.2', 'km Z3-4.2', 'km Z5-T1-T2.2', 'km sprinting.2', 'strength training.2',
+'hours alternative.2', 'perceived exertion.2', 'perceived trainingSuccess.2', 'perceived recovery.2',
+'nr. sessions.3', 'total km.3', 'km Z3-4.3', 'km Z5-T1-T2.3', 'km sprinting.3', 'strength training.3',
+'hours alternative.3', 'perceived exertion.3', 'perceived trainingSuccess.3', 'perceived recovery.3',
+'nr. sessions.4', 'total km.4', 'km Z3-4.4', 'km Z5-T1-T2.4', 'km sprinting.4', 'strength training.4',
+'hours alternative.4', 'perceived exertion.4', 'perceived trainingSuccess.4', 'perceived recovery.4',
+'nr. sessions.5', 'total km.5', 'km Z3-4.5', 'km Z5-T1-T2.5', 'km sprinting.5', 'strength training.5',
+'hours alternative.5', 'perceived exertion.5', 'perceived trainingSuccess.5', 'perceived recovery.5',
+'nr. sessions.6', 'total km.6', 'km Z3-4.6', 'km Z5-T1-T2.6', 'km sprinting.6', 'strength training.6',
+'hours alternative.6', 'perceived exertion.6', 'perceived trainingSuccess.6', 'perceived recovery.6',
+'nr. sessions_week', 'nr. rest days', 'total kms', 'max km one day', 'total km Z3-Z4-Z5-T1-T2',
+'nr. tough sessions (effort in Z5, T1 or T2)', 'nr. days with interval session', 'total km Z3-4', 'max km Z3-4 one day',
+'total km Z5-T1-T2', 'max km Z5-T1-T2 one day', 'total hours alternative training', 'nr. strength trainings', 'avg exertion',
+'min exertion', 'max exertion', 'avg training success', 'min training success', 'max training success',
+'avg recovery', 'min recovery', 'max recovery', 'nr. sessions.1_week', 'nr. rest days.1',
+'total kms.1', 'max km one day.1', 'total km Z3-Z4-Z5-T1-T2.1', 'nr. tough sessions (effort in Z5, T1 or T2).1',
+'nr. days with interval session.1', 'total km Z3-4.1', 'max km Z3-4 one day.1', 'total km Z5-T1-T2.1',
+'max km Z5-T1-T2 one day.1', 'total hours alternative training.1', 'nr. strength trainings.1',
+'avg exertion.1', 'min exertion.1', 'max exertion.1', 'avg training success.1', 'min training success.1',
+'max training success.1', 'avg recovery.1', 'min recovery.1', 'max recovery.1', 'nr. sessions.2_week',
+'nr. rest days.2', 'total kms.2', 'max km one day.2', 'total km Z3-Z4-Z5-T1-T2.2', 'nr. tough sessions (effort in Z5, T1 or T2).2',
+'nr. days with interval session.2','total km Z3-4.2','max km Z3-4 one day.2', 'total km Z5-T1-T2.2',
+'max km Z5-T1-T2 one day.2', 'total hours alternative training.2', 'nr. strength trainings.2', 'avg exertion.2',
+'min exertion.2', 'max exertion.2','avg training success.2','min training success.2', 'max training success.2',
+'avg recovery.2', 'min recovery.2', 'max recovery.2', 'rel total kms week 0_1',
+'rel total kms week 0_2', 'rel total kms week 1_2'
+2. **Days Features** – 'nr. sessions_day', 'total km', 'km Z3-4', 'km Z5-T1-T2', 'km sprinting', 'strength training',
+'hours alternative', 'perceived exertion', 'perceived trainingSuccess', 'perceived recovery',
+'nr. sessions.1_day', 'total km.1', 'km Z3-4.1', 'km Z5-T1-T2.1', 'km sprinting.1', 'strength training.1',
+'hours alternative.1', 'perceived exertion.1', 'perceived trainingSuccess.1', 'perceived recovery.1',
+'nr. sessions.2_day', 'total km.2', 'km Z3-4.2', 'km Z5-T1-T2.2', 'km sprinting.2', 'strength training.2',
+'hours alternative.2', 'perceived exertion.2', 'perceived trainingSuccess.2', 'perceived recovery.2',
+'nr. sessions.3', 'total km.3', 'km Z3-4.3', 'km Z5-T1-T2.3', 'km sprinting.3', 'strength training.3',
+'hours alternative.3', 'perceived exertion.3', 'perceived trainingSuccess.3', 'perceived recovery.3',
+'nr. sessions.4', 'total km.4', 'km Z3-4.4', 'km Z5-T1-T2.4', 'km sprinting.4', 'strength training.4',
+'hours alternative.4', 'perceived exertion.4', 'perceived trainingSuccess.4', 'perceived recovery.4',
+'nr. sessions.5', 'total km.5', 'km Z3-4.5', 'km Z5-T1-T2.5', 'km sprinting.5', 'strength training.5',
+'hours alternative.5', 'perceived exertion.5', 'perceived trainingSuccess.5', 'perceived recovery.5',
+'nr. sessions.6', 'total km.6', 'km Z3-4.6', 'km Z5-T1-T2.6', 'km sprinting.6', 'strength training.6',
+'hours alternative.6', 'perceived exertion.6', 'perceived trainingSuccess.6', 'perceived recovery.6',
+3. **Weeks Features** – 'nr. sessions_week', 'nr. rest days', 'total kms', 'max km one day', 'total km Z3-Z4-Z5-T1-T2',
+'nr. tough sessions (effort in Z5, T1 or T2)', 'nr. days with interval session', 'total km Z3-4', 'max km Z3-4 one day',
+'total km Z5-T1-T2', 'max km Z5-T1-T2 one day', 'total hours alternative training', 'nr. strength trainings', 'avg exertion',
+'min exertion', 'max exertion', 'avg training success', 'min training success', 'max training success',
+'avg recovery', 'min recovery', 'max recovery', 'nr. sessions.1_week', 'nr. rest days.1',
+'total kms.1', 'max km one day.1', 'total km Z3-Z4-Z5-T1-T2.1', 'nr. tough sessions (effort in Z5, T1 or T2).1',
+'nr. days with interval session.1', 'total km Z3-4.1', 'max km Z3-4 one day.1', 'total km Z5-T1-T2.1',
+'max km Z5-T1-T2 one day.1', 'total hours alternative training.1', 'nr. strength trainings.1',
+'avg exertion.1', 'min exertion.1', 'max exertion.1', 'avg training success.1', 'min training success.1',
+'max training success.1', 'avg recovery.1', 'min recovery.1', 'max recovery.1', 'nr. sessions.2_week',
+'nr. rest days.2', 'total kms.2', 'max km one day.2', 'total km Z3-Z4-Z5-T1-T2.2', 'nr. tough sessions (effort in Z5, T1 or T2).2',
+'nr. days with interval session.2','total km Z3-4.2','max km Z3-4 one day.2', 'total km Z5-T1-T2.2',
+'max km Z5-T1-T2 one day.2', 'total hours alternative training.2', 'nr. strength trainings.2', 'avg exertion.2',
+'min exertion.2', 'max exertion.2','avg training success.2','min training success.2', 'max training success.2',
+'avg recovery.2', 'min recovery.2', 'max recovery.2', 'rel total kms week 0_1',
+'rel total kms week 0_2', 'rel total kms week 1_2'
+4. **Objective Features** – 'nr. sessions_day', 'total km', 'km Z3-4', 'km Z5-T1-T2', 'km sprinting', 'strength training',
+'hours alternative', 'nr. sessions.1_day', 'total km.1', 'km Z3-4.1', 'km Z5-T1-T2.1', 'km sprinting.1', 'strength training.1',
+'hours alternative.1', 'nr. sessions.2_day', 'total km.2', 'km Z3-4.2', 'km Z5-T1-T2.2', 'km sprinting.2', 'strength training.2',
+'hours alternative.2', 'nr. sessions.3', 'total km.3', 'km Z3-4.3', 'km Z5-T1-T2.3', 'km sprinting.3', 'strength training.3',
+'hours alternative.3', 'nr. sessions.4', 'total km.4', 'km Z3-4.4', 'km Z5-T1-T2.4', 'km sprinting.4', 'strength training.4',
+'hours alternative.4', 'nr. sessions.5', 'total km.5', 'km Z3-4.5', 'km Z5-T1-T2.5', 'km sprinting.5', 'strength training.5',
+'hours alternative.5', 'nr. sessions.6', 'total km.6', 'km Z3-4.6', 'km Z5-T1-T2.6', 'km sprinting.6', 'strength training.6',
+'hours alternative.6', 'nr. sessions_week', 'nr. rest days', 'total kms', 'max km one day', 'total km Z3-Z4-Z5-T1-T2',
+'nr. tough sessions (effort in Z5, T1 or T2)', 'nr. days with interval session', 'total km Z3-4', 'max km Z3-4 one day',
+'total km Z5-T1-T2', 'max km Z5-T1-T2 one day', 'total hours alternative training', 'nr. strength trainings',
+'nr. sessions.1_week', 'nr. rest days.1', 'total kms.1', 'max km one day.1', 'total km Z3-Z4-Z5-T1-T2.1', 'nr. tough sessions (effort in Z5, T1 or T2).1',
+'nr. days with interval session.1', 'total km Z3-4.1', 'max km Z3-4 one day.1', 'total km Z5-T1-T2.1',
+'max km Z5-T1-T2 one day.1', 'total hours alternative training.1', 'nr. strength trainings.1',
+'nr. sessions.2_week', 'nr. rest days.2', 'total kms.2', 'max km one day.2', 'total km Z3-Z4-Z5-T1-T2.2', 'nr. tough sessions (effort in Z5, T1 or T2).2',
+'nr. days with interval session.2','total km Z3-4.2','max km Z3-4 one day.2', 'total km Z5-T1-T2.2',
+'max km Z5-T1-T2 one day.2', 'total hours alternative training.2', 'nr. strength trainings.2', 'rel total kms week 0_1',
+'rel total kms week 0_2', 'rel total kms week 1_2'
+5. **Subjective Features** - 'perceived exertion', 'perceived trainingSuccess', 'perceived recovery',
+'perceived exertion.1', 'perceived trainingSuccess.1', 'perceived recovery.1',
+'perceived exertion.2', 'perceived trainingSuccess.2', 'perceived recovery.2',
+'perceived exertion.3', 'perceived trainingSuccess.3', 'perceived recovery.3',
+'perceived exertion.4', 'perceived trainingSuccess.4', 'perceived recovery.4',
+'perceived exertion.5', 'perceived trainingSuccess.5', 'perceived recovery.5',
+'perceived exertion.6', 'perceived trainingSuccess.6', 'perceived recovery.6',
+'avg exertion', 'min exertion', 'max exertion', 'avg training success', 'min training success',
+'max training success', 'avg recovery', 'min recovery', 'max recovery', 'avg exertion.1', 'min exertion.1',
+'max exertion.1', 'avg training success.1', 'min training success.1', 'max training success.1',
+'avg recovery.1', 'min recovery.1', 'max recovery.1', 'avg exertion.2', 'min exertion.2', 'max exertion.2',
+'avg training success.2','min training success.2', 'max training success.2', 'avg recovery.2',
+'min recovery.2', 'max recovery.2'
 
 ---
 **Author:** Pascal Ghanimi

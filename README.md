@@ -138,50 +138,37 @@ To analyze model performance, five different feature sets were used:
 
 ### Comparison of Feature Sets for CatBoost
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/dca17c69-5991-4c94-be36-898a685da34d" />
+  <img src="https://github.com/user-attachments/assets/dca17c69-5991-4c94-be36-898a685da34d" width="400"/>
+  <img src="https://github.com/user-attachments/assets/67ef225f-872a-405d-a0f1-170a7e9fc421" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/67ef225f-872a-405d-a0f1-170a7e9fc421" />
+  <img src="https://github.com/user-attachments/assets/a64daae9-d791-4249-b645-12a61580b8e7" width="400"/>
+  <img src="https://github.com/user-attachments/assets/9d6819dd-213f-4ffa-baac-056a02f644e5" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/a64daae9-d791-4249-b645-12a61580b8e7" />
+  <img src="https://github.com/user-attachments/assets/9e57b62b-c895-43fa-b831-0d05fda84a4e" width="400"/>
+  <img src="https://github.com/user-attachments/assets/f7de8351-2c3e-43e2-a2b5-14d9e7abb0ff" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/9d6819dd-213f-4ffa-baac-056a02f644e5" />
+  <img src="https://github.com/user-attachments/assets/2a0271bf-dae2-48c9-936d-2a03b8e85a3b" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7061e1c4-ba35-4016-99af-bc6c93da6778" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/9e57b62b-c895-43fa-b831-0d05fda84a4e" />
+  <img src="https://github.com/user-attachments/assets/bb2da64d-ee65-41e3-8531-f3a5a1782679" width="400"/>
+  <img src="https://github.com/user-attachments/assets/fa120276-3f1e-426c-b186-da8e3adbc215" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/f7de8351-2c3e-43e2-a2b5-14d9e7abb0ff" />
+  <img src="https://github.com/user-attachments/assets/2f6c61af-b4fa-4924-bcd5-f775f1ccf12c" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7dd50212-e7f3-4c4e-b9a8-0cfe5406d6ec" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/2a0271bf-dae2-48c9-936d-2a03b8e85a3b" />
+  <img src="https://github.com/user-attachments/assets/d02d95f1-c17c-45dc-bdc7-620dcb713912" width="400"/>
+  <img src="https://github.com/user-attachments/assets/046bdf0a-81a0-4b6f-96b7-256c2f663a1c" width="400"/>
 </p>
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/7061e1c4-ba35-4016-99af-bc6c93da6778" />
+  <img src="https://github.com/user-attachments/assets/2adcd6aa-f539-4039-b8b3-3498cdd033bb" width="400"/>
 </p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/bb2da64d-ee65-41e3-8531-f3a5a1782679" />
-</p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/fa120276-3f1e-426c-b186-da8e3adbc215" />
-</p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/2f6c61af-b4fa-4924-bcd5-f775f1ccf12c" />
-</p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/7dd50212-e7f3-4c4e-b9a8-0cfe5406d6ec" />
-</p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/d02d95f1-c17c-45dc-bdc7-620dcb713912" />
-</p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/046bdf0a-81a0-4b6f-96b7-256c2f663a1c" />
-</p>
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/2adcd6aa-f539-4039-b8b3-3498cdd033bb" />
-</p>
+
 
 
 

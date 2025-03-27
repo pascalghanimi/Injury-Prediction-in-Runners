@@ -173,7 +173,28 @@ To analyze model performance, five different feature sets were used:
 
 
 ### Performance of Ensemble Model (ROC Curve)
-![image](https://github.com/user-attachments/assets/40796dba-e3b2-449c-9bce-de2a8417f013)
+### Comparison of Feature Sets for Ensemble Models
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/c232b4a5-27a4-43ee-bc17-2c24f890b653" width="400"/>
+  <img src="https://github.com/user-attachments/assets/f43f6ccf-986d-40a2-89ff-7c327a1a5b9e" width="400"/>
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/075c69de-0e54-43d5-8ba9-140702d58084" width="400"/>
+  <img src="https://github.com/user-attachments/assets/6d300ffd-437e-408e-a2d6-e7e15ba1ab1e" width="400"/>
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/cac35d22-0edb-4700-9f25-c3c75b5ac391" width="400"/>
+  <img src="https://github.com/user-attachments/assets/90bdf409-b105-4772-b9c4-375352202c54" width="400"/>
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/1af7824b-30a3-408a-ab90-70a7bd6b26fe" width="400"/>
+  <img src="https://github.com/user-attachments/assets/e066f33f-b961-40cb-91f8-8dd6aabfdf07" width="400"/>
+</p>
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/6f204724-cf7b-40ae-856d-198185dccc78" width="400"/>
+  <img src="https://github.com/user-attachments/assets/2191c43f-08db-4b53-9430-212830d4aa7e" width="400"/>
+</p>
+
 
 
 
